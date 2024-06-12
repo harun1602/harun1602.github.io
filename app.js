@@ -67,7 +67,7 @@ const app = Vue.createApp({
                 this.dict = checkPattern(this.selectedNumbers);
                 console.log(this.dict);
                 // HTTP-POST-Anfrage senden
-                fetch('https://lotto-ibn8.onrender.com/api/submitForm', {
+                fetch('https://lotto-ibn8.onrender.com', {
                     method: 'POST',
                     headers: {
                         'Content-Type': 'application/json'
