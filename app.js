@@ -1,4 +1,4 @@
-import { checkPattern } from './pattern.js';
+import { checkPattern } from '/pattern.js';
 
 const app = Vue.createApp({
     data() {
