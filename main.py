@@ -29,7 +29,7 @@ async def read_root():
 async def shutdown_event():
     print("Shutting down gracefully...")
 
-@app.post('/api/submitForm')
+@app.post('/')
 async def receive_selected_numbers(submittedinfo: dict):
     selected_numbers = submittedinfo.get('selectedNumbers')
     input_text = submittedinfo.get('inputText')
